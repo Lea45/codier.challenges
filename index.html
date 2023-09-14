@@ -1,0 +1,73 @@
+<!-- 
+Create a simple page that contains:
+- 2 headings;
+- 1 paragraph;
+- Navigation with listed items;
+- A Section;
+- Footer; -->
+
+<!doctype html> 
+<html>
+    <head>
+        <title>Simple page</title>
+    </head>
+
+    <body>
+        <nav class="navigation">
+            <a href="/">Home /</a>
+            <a href="/">About</a>
+        </nav>
+
+        <h1>
+            Photomanipulation
+        </h1>
+
+        <h5> 
+            Example:
+        </h5>
+
+        <section>
+            <p> 
+                <img class="image" src="image.jpeg" width="350px" height="400px">
+            </p>
+        </section>
+
+
+        <footer>
+            <p>Copyright 2023</p>
+        </footer>
+
+    </body>
+</html>
+
+<style>
+    body{
+        background-color: rgb(247, 238, 228);
+    }
+
+    .navigation{
+        background-color: rgb(113, 167, 225);
+    }
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 50px;   
+    }
+
+    h1,h5{
+        text-align: center;
+    }
+
+    .image{
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    footer{
+       background-color: rgb(178, 169, 169); 
+       text-align: center;
+    }
+</style>
